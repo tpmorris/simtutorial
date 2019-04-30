@@ -4,19 +4,17 @@
 # (based partly on code of Alessandro Gasparini; also  on some pestering of Matteo Quartagno)
 
 if (!requireNamespace("tidyverse")) install.packages("tidyverse")
-if (!requireNamespace("ggplot2")) install.packages("ggplot2")
 if (!requireNamespace("rsimsum")) install.packages("rsimsum")
 
 library(tidyverse)
-library(ggplot2)
 library(rsimsum)
 
 # no vomit grid in ggplot
 theme_set(theme_bw(base_size = 12))
 theme_update(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
 
-# Load estimates produced by runsim.R
-estimates <- readRDS("estimates.RData")
+# Read estimates produced by runsim.R
+estimates <- readRDS("estimates.rds")
 
 # Medium-long estimates data; label method var
 estmlong <- estimates %>%
