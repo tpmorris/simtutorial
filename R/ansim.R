@@ -16,7 +16,7 @@ theme_set(theme_bw(base_size = 12))
 theme_update(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
 
 # Load estimates produced by runsim.R
-load("estimates.RData")
+estimates <- readRDS("estimates.RData")
 
 # Medium-long estimates data; label method var
 estmlong <- estimates %>%

@@ -72,9 +72,9 @@ for (r in 1:nsim) {
 
 # Save data frame for analysis
 head(estimates)
-saveRDS(estimates, file = "estimates.RData")
+saveRDS(estimates, file = "estimates.rds")
 head(states)
-saveRDS(states, file = "states.RData")
+saveRDS(states, file = "states.rds")
 
 # Want to reproduce data from a particular rep? This is why we produced (and saved) states
 # Here is repetition 3, gamma = 1
