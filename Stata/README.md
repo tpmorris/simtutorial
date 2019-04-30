@@ -27,8 +27,4 @@ and invoked with
 `. set scheme mrc`
 
 ## Bugs, issues and improvements
-Please do let us know of any issues you discover in these files, and we will endeavor to acknowledge you here.
-
-## To-do
-**Produce R scripts to perform the same simulation study**   
-Background: In Stata, saving estimates and random number states are what trips people up. This is straightforward to do in R. Many of the simulation studies we reviewed in [https://onlinelibrary.wiley.com/doi/10.1002/sim.8086](https://onlinelibrary.wiley.com/doi/10.1002/sim.8086) were coded in R, and very few in Stata. We therefore judged that the Stata community were more likely to want these files, and did not expect demand from R users. However, having now received several requests from R users, we are working on this.
+Please do let me know of any issues you discover in these files, and we will endeavor to acknowledge you here.
