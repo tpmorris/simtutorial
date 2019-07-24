@@ -61,7 +61,7 @@ ggsave(filename = "seswarmR.pdf", plot = last_plot(), device = "pdf",
 
 
 # Run simsum to estimate performances
-ssres <- rsimsum::simsum(
+ssres <- simsum(
   data = estmlong, estvarname = "theta", true = -.5 , se = "se",
   methodvar = "method", ref = "Weibull", by = "dgmgamma", x = TRUE
 )
